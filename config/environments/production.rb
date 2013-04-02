@@ -20,6 +20,10 @@ Omrails::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
+    # Paperclip directory
+  Paperclip.options[:command_path] = "/usr/local/bin/"
+
+
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH
 
