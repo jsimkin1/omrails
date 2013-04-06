@@ -9,12 +9,13 @@ $navbarBackground: white;
 
 body {
 	padding-top:60px;
+    background: url('/assets/satinweave.png') repeat;
 }
 
 @import 'bootstrap-responsive';
 
 .navbar-inner {
-	@include box-shadow(none !important);
+	@include box-shadow(1px solid #aaa !important);
 	border: 0;
 }
 
@@ -33,10 +34,10 @@ body {
     font-size: 11px;
     line-height: 1.4em;
     float: left;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px #444;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
     width: 214px;
 }
 
